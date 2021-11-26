@@ -6,7 +6,13 @@
  },
  "version": "0.1.0",
  "binaryname": "monas-chinas-cli",
- "frontend": {},
+ "frontend": {
+    "dir": ".",
+    "install": "npm --version",
+    "build": "npm --version",
+    "bridge": "npm --version",
+    "serve": "npm --version"
+ },
  "tags": "",
  "WailsVersion": "",
  "CrossCompile": false,
