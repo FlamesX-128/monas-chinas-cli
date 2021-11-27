@@ -25,14 +25,14 @@ This project does **NOT** receive any earnings of any kind, the ads that appear 
 
 
 ## **Ejemplo**
-![image](https://user-images.githubusercontent.com/78381898/143658153-fca51a92-bd8e-407c-aaa4-5e21f8a83094.png)
+![image](https://user-images.githubusercontent.com/78381898/143662402-db7a84b8-fb9d-41ef-8e38-0625540ce75d.png)
 
-![image](https://user-images.githubusercontent.com/78381898/143658270-9c817c2f-24b1-4037-b218-6d4c79a490a6.png)
+![image](https://user-images.githubusercontent.com/78381898/143662416-b45e7750-3ff2-4ff8-9e06-f8fc1ef0ce8e.png)
 
 ## **Example**
-![image](https://user-images.githubusercontent.com/78381898/143658153-fca51a92-bd8e-407c-aaa4-5e21f8a83094.png)
+![image](https://user-images.githubusercontent.com/78381898/143662402-db7a84b8-fb9d-41ef-8e38-0625540ce75d.png)
 
-![image](https://user-images.githubusercontent.com/78381898/143658270-9c817c2f-24b1-4037-b218-6d4c79a490a6.png)
+![image](https://user-images.githubusercontent.com/78381898/143662416-b45e7750-3ff2-4ff8-9e06-f8fc1ef0ce8e.png)
 
 ## Sistemas operativos compatibles
 
