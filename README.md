@@ -47,6 +47,10 @@ This project does **NOT** receive any earnings of any kind, the ads that appear 
 
 - [?] Darwin
 
-- [✓] Linux (Pop!_OS 20.04 LTS x68_64)
+- Linux
+  
+  + [✓] Pop!_OS 20.04 LTS x68_64
+  
+  + [✓] Archcraft x86_64
 
 - [?] Windows
