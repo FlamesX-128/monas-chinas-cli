@@ -1,7 +1,7 @@
 # **monas-chinas-cli**
-Este un un cli para ver anime usando la consola/terminal.
+Este un un cli para ver anime.
 
-This is a cli to watch anime using the console/terminal.
+This is a cli to watch anime.
 
 
 ## ⚠️ **AVISO** ⚠️
