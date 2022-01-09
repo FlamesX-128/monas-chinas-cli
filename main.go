@@ -36,11 +36,9 @@ func main() {
 		DisableInspector: true,
 		Height:           480,
 		HTML:             page,
-		Resizable:        false,
+		Resizable:        true,
 		MinWidth:         640,
 		MinHeight:        480,
-		MaxWidth:         640,
-		MaxHeight:        480,
 		Title:            "monas-chinas-cli",
 		Width:            640,
 	})
