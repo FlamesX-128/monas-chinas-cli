@@ -2,7 +2,7 @@ module github.com/FlamesX-128/monas-chinas-cli
 
 go 1.17
 
-require github.com/wailsapp/wails v1.16.8
+require github.com/wailsapp/wails v1.16.9
 
 require (
 	github.com/Masterminds/semver v1.4.2 // indirect
