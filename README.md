@@ -18,9 +18,15 @@ This project does **NOT** receive any earnings of any kind, the ads that appear 
 
 
 ## **Registro de cambios**
+- `0.1.0` ─ Basado del pull #2
+  + Ventana Redimensionable.
+
 - `0.0.1` Primera version.
 
 ## **ChangeLog**
+- `0.1.0` ─ Based on the pull #2
+  + Resizable window.
+
 - `0.0.1` First release.
 
 
@@ -38,9 +44,15 @@ This project does **NOT** receive any earnings of any kind, the ads that appear 
 
 - [?] Darwin
 
-- [✓] Linux (Pop!_OS 20.04 LTS x68_64)
+- Linux
+  
+  + [✓] Pop!_OS 20.04 LTS x68_64
+  
+  + [✓] Archcraft x86_64
 
-- [?] Windows
+- Windows
+
+  + [✓] Windows 10 *Probado con wine*
 
 
 ## Supported operating systems
@@ -53,4 +65,6 @@ This project does **NOT** receive any earnings of any kind, the ads that appear 
   
   + [✓] Archcraft x86_64
 
-- [?] Windows
+- Windows
+
+  + [✓] Windows 10 *Tested with wine*
