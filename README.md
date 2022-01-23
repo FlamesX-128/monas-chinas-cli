@@ -50,10 +50,6 @@ This project does **NOT** receive any earnings of any kind, the ads that appear 
   
   + [✓] Archcraft x86_64
 
-- Windows
-
-  + [✓] Windows 10 *Probado con wine*
-
 
 ## Supported operating systems
 
@@ -64,7 +60,3 @@ This project does **NOT** receive any earnings of any kind, the ads that appear 
   + [✓] Pop!_OS 20.04 LTS x68_64
   
   + [✓] Archcraft x86_64
-
-- Windows
-
-  + [✓] Windows 10 *Tested with wine*
