@@ -1,8 +1,6 @@
 # **monas-chinas-cli**
 Este un un cli para ver anime.
 
-This is a cli to watch anime.
-
 ## ⚠️ **AVISO** ⚠️
 Los animes **NO** pertenecen al creador o algún contribuidor de este proyecto,
 le pertenece a la organización **MonosChinos** ─ https://monoschinos2.com/.
