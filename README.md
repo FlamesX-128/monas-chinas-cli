@@ -8,6 +8,9 @@ le pertenece a la organización **MonosChinos** ─ https://monoschinos2.com/.
 Este proyecto **NO** recibe ganancias de ningún tipo, los anuncios que aparecen son por parte de las URLs de los animes de la pagina **monoschinos2** ─ https://monoschinos2.com/.
 
 ## **Registro de cambios**
+- `0.3.0` ─ webview
+  + Ahora la ventana se crea con webview.
+
 - `0.2.0` ─ Neutralino
   + Ahora la ventana se crean con neutralino
 
