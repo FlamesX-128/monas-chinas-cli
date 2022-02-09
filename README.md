@@ -20,9 +20,9 @@ Este proyecto **NO** recibe ganancias de ningún tipo, los anuncios que aparecen
 - `0.0.1` ─ Primera version.
 
 ## **Ejemplo**
-![image](https://user-images.githubusercontent.com/78381898/143662402-db7a84b8-fb9d-41ef-8e38-0625540ce75d.png)
+![anime](https://user-images.githubusercontent.com/78381898/153124219-4c50aec3-0087-4204-8f44-8c563af6d9b0.png)
 
-![image](https://user-images.githubusercontent.com/78381898/143662416-b45e7750-3ff2-4ff8-9e06-f8fc1ef0ce8e.png)
+![anime](https://user-images.githubusercontent.com/78381898/153124225-63cb6851-ce37-4639-a568-545ab8d5c1e9.png)
 
 ## Sistemas operativos compatibles
 
