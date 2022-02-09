@@ -5,13 +5,12 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"os/exec"
-	"runtime"
 	"strconv"
 	"strings"
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/gocolly/colly"
+	"github.com/webview/webview"
 )
 
 const baseURL = "https://monoschinos2.com/"
@@ -189,11 +188,10 @@ func main() {
 
 	}
 
-	os.WriteFile("resources/assets/url.txt", []byte(url), 0644)
-
-	if runtime.GOOS == "windows" {
-		exec.Command("./window.exe").Run()
-	} else {
-		exec.Command("./window").Run()
-	}
+	w := webview.New(false)
+	defer w.Destroy()
+	w.SetTitle("monas-chinas-cli")
+	w.SetSize(800, 600, webview.HintNone)
+	w.Navigate(url)
+	w.Run()
 }

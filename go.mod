@@ -21,6 +21,7 @@ require (
 	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b // indirect
 	github.com/saintfish/chardet v0.0.0-20120816061221-3af4cd4741ca // indirect
 	github.com/temoto/robotstxt v1.1.2 // indirect
+	github.com/webview/webview v0.0.0-20220209020913-f90053554510 // indirect
 	golang.org/x/net v0.0.0-20210916014120-12bc252f5db8 // indirect
 	golang.org/x/sys v0.0.0-20210423082822-04245dca01da // indirect
 	golang.org/x/term v0.0.0-20210503060354-a79de5458b56 // indirect
