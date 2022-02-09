@@ -23,6 +23,10 @@ Este proyecto **NO** recibe ganancias de ningún tipo, los anuncios que aparecen
 
 https://user-images.githubusercontent.com/78381898/153272796-5da54413-f767-4e5f-a8b1-5e99ac7a49ac.mp4
 
+### **Presencia en discord**
+
+![anime](https://user-images.githubusercontent.com/78381898/153275541-e0c8d18c-061e-43fc-8e7e-97842e3a0ec8.png)
+
 ## **Instalación**
 
 ### **Usando Go v1.17+**
@@ -94,6 +98,10 @@ This project **NOT** receives profits of any kind, the ads that appear are from 
 ![anime](https://user-images.githubusercontent.com/78381898/153124225-63cb6851-ce37-4639-a568-545ab8d5c1e9.png)
 
 https://user-images.githubusercontent.com/78381898/153272957-a6c8b50b-dfd5-4e36-b772-bc2724d51312.mp4
+
+### **Presence in discord**
+
+![anime](https://user-images.githubusercontent.com/78381898/153275541-e0c8d18c-061e-43fc-8e7e-97842e3a0ec8.png)
 
 ## **Installation**
 
