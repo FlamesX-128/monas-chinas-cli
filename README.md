@@ -72,7 +72,7 @@ $ .\monas-chinas-cli
 ```
 
 ## **Contribuciones**
-Las pull requests son bienvenidas. Para cambios importantes, abra un problema primero para discutir lo que le gustaría cambiar.
+Las pull requests son bienvenidas. Para cambios importantes, abra un issue primero para discutir lo que le gustaría cambiar.
 
 Asegúrese de actualizar las pruebas según corresponda.
 
