@@ -29,16 +29,6 @@ https://user-images.githubusercontent.com/78381898/153487368-157807c2-c89c-49de-
 ![anime](https://user-images.githubusercontent.com/78381898/153275541-e0c8d18c-061e-43fc-8e7e-97842e3a0ec8.png)
 
 ## **Uso**
-### **Instalado con Go**
-
-1° Abre una console/terminal.
-
-2° Ejecute el siguiente comando:
-```bash
-$ monas-chinas-cli
-```
-
-### **Archivo descargado**
 
 1° Descarga los archivos en [releases](https://github.com/FlamesX-128/monas-chinas-cli/releases).
 
