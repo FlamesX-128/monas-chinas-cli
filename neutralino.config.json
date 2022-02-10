@@ -1,0 +1,54 @@
+{
+  "applicationId": "monas-chinas-cli",
+  "version": "0.5.0",
+  "defaultMode": "window",
+  "port": 43079,
+  "documentRoot": "/resources/",
+  "url": "/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "tokenSecurity": "one-time",
+  "logging": {
+    "enabled": true,
+    "writeToLogFile": true
+  },
+  "nativeAllowList": [
+    "app.*",
+    "os.*"
+  ],
+  "globalVariables": {},
+  "modes": {
+    "window": {
+      "title": "monas-chinas-cli",
+      "width": 800,
+      "height": 600,
+      "minWidth": 400,
+      "minHeight": 200,
+      "fullScreen": false,
+      "alwaysOnTop": false,
+      "icon": "/resources/icons/appIcon.png",
+      "enableInspector": false,
+      "borderless": false,
+      "maximize": false,
+      "hidden": false,
+      "resizable": true,
+      "exitProcessOnClose": false
+    },
+    "browser": {
+      "globalVariables": {},
+      "nativeBlockList": []
+    },
+    "cloud": {
+      "url": "/resources/#cloud",
+      "nativeAllowList": []
+    }
+  },
+  "cli": {
+    "binaryName": "monas-chinas-cli",
+    "resourcesPath": "/resources/",
+    "extensionsPath": "/extensions/",
+    "clientLibrary": "/resources/js/neutralino.js",
+    "binaryVersion": "4.3.0",
+    "clientVersion": "3.2.0"
+  }
+}

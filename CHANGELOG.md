@@ -16,6 +16,9 @@ le pertenece a la organización **MonosChinos** ─ https://monoschinos2.com/.
 Este proyecto **NO** recibe ganancias de ningún tipo, los anuncios que aparecen son por parte de las URLs de los animes de la pagina **monoschinos2** ─ https://monoschinos2.com/.
 
 ## **Registro de cambios**
+- `0.5.0` ─ Neutralino.js
+  + Ahora las ventanas se crean nuevamente con neutralino para la compatibilidad con darwin, linux y windows.
+
 - `0.4.0` ─ Rich Presence
   + Dependiendo del anime que estés viendo tendrás presencia en discord.
   + Reestructuración del proyecto.
@@ -44,6 +47,9 @@ belongs to the organization **MonosChinos** ─ https://monoschinos2.com/.
 This project **NOT** receives profits of any kind, the ads that appear are from the URLs of the animes on the page **monoschinos2** ─ https://monoschinos2.com/.
 
 ## **ChangeLog**
+- `0.5.0` ─ Neutralino.js
+  + Now the windows are created again with neutralino for compatibility with darwin, linux and windows.
+
 - `0.4.0` ─ Rich Presence
   + Depending on the anime you are watching you will have a presence in discord.
   + Restructuring of the project.
