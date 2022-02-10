@@ -31,13 +31,10 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"os/exec"
-	"runtime"
 	"strings"
 
-	"github.com/FlamesX-128/monas-chinas-cli/src/controllers"
-	"github.com/FlamesX-128/monas-chinas-cli/src/interfaces"
-	"github.com/FlamesX-128/monas-chinas-cli/src/tools"
+	"github.com/FlamesX-128/monas-chinas-cli/controllers"
+	"github.com/FlamesX-128/monas-chinas-cli/tools"
 )
 
 func main() {
@@ -79,30 +76,9 @@ func main() {
 
 	serviceTarget := controllers.NumberSurvey(len(serviceList), "Se encontraron los siguientes servicios, ¿Cual quieres usar?")
 
-	decodedLinks, _ := base64.StdEncoding.DecodeString(serviceList[serviceTarget-1].Url)
-	urls := strings.Split(string(decodedLinks), "?url=")
-
-	var url string
-
-	if len(urls) > 1 {
-		url = urls[1]
-
-	} else {
-		url = urls[0]
-
-	}
+	link, _ := base64.StdEncoding.DecodeString(serviceList[serviceTarget-1].Url)
+	urls := strings.Split(string(link), "?url=")
 
 	go controllers.RichPresence(animeList[animeTarget-1].Name, animeList[animeTarget-1].Image, episodeTarget)
-	go controllers.ListenAndServe(interfaces.Anime{
-		Url: url,
-	})
-
-	if runtime.GOOS == "windows" {
-		exec.Command(".\\neutralino.exe").Run()
-
-	} else {
-		err := exec.Command("./neutralino").Run()
-
-		fmt.Println(err)
-	}
+	controllers.WebView(urls)
 }

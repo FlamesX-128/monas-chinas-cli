@@ -7,7 +7,7 @@
 
 <p id="Español"></p>
 
-"monas-chinas-cli" es un cli para ver anime desde la consola/terminal.
+"monas-chinas-cli" es un cli para ver anime.
 
 ## ⚠️ **AVISO** ⚠️
 Los animes **NO** pertenecen al creador o algún contribuidor de este proyecto,
@@ -17,33 +17,52 @@ Este proyecto **NO** recibe ganancias de ningún tipo, los anuncios que aparecen
 
 ## **Previsualización**
 
-![anime](https://user-images.githubusercontent.com/78381898/153487390-1bc7976d-514d-4457-98b6-dbfaa8e43c64.png)
+![anime](https://user-images.githubusercontent.com/78381898/153124219-4c50aec3-0087-4204-8f44-8c563af6d9b0.png)
 
-![anime](https://user-images.githubusercontent.com/78381898/153487393-2cf7478b-50da-4029-b5b6-91a3a3992c3c.png)
+![anime](https://user-images.githubusercontent.com/78381898/153124225-63cb6851-ce37-4639-a568-545ab8d5c1e9.png)
 
-https://user-images.githubusercontent.com/78381898/153487368-157807c2-c89c-49de-835d-40bdc1b5249d.mp4
-
+https://user-images.githubusercontent.com/78381898/153272796-5da54413-f767-4e5f-a8b1-5e99ac7a49ac.mp4
 
 ### **Presencia en discord**
 
 ![anime](https://user-images.githubusercontent.com/78381898/153275541-e0c8d18c-061e-43fc-8e7e-97842e3a0ec8.png)
 
+## **Instalación**
+
+### **Usando Go v1.17+**
+```bash
+# Puede eliminar "@latest" y poner alguna versión como: "@v0.4.0"
+$ go install github.com/FlamesX-128/monas-chinas-cli@latest
+```
+
+### **Usando Go v1.16**
+```bash
+# Puede eliminar "@latest" y poner alguna versión como: "@v0.4.0"
+$ go get -u github.com/FlamesX-128/monas-chinas-cli@latest
+```
+
 ## **Uso**
+### **Instalado con Go**
 
-1° Descarga los archivos en [releases](https://github.com/FlamesX-128/monas-chinas-cli/releases).
+1° Abre una consola/terminal.
 
-2° Descomprime la carpeta.
+2° Ejecute el siguiente comando:
+```bash
+$ monas-chinas-cli
+```
 
-3° Abre una consola/terminal.
+### **Archivo descargado**
 
-4° Vaya a la ruta donde se encuentra el archivo descargado.
+1° Abre una consola/terminal.
 
-4.1° Puede ir a los directorios con el comando "cd" como:
+2° Vaya a la ruta donde se encuentra el archivo descargado.
+
+2.1° Puede ir a los directorios con el comando "cd" como:
 ```bash
 $ cd Escritorio/
 ```
 
-5° Ejecuta el siguiente comando:
+3° Ejecuta el siguiente comando:
 ```bash
 # Linux, Darwin
 $ ./monas-chinas-cli
@@ -64,7 +83,7 @@ Asegúrese de actualizar las pruebas según corresponda.
 
 <p id="English"></p>
 
-"monas-chinas-cli" is a cli to watch anime from console/terminal.
+"monas-chinas-cli" is a cli to watch anime.
 
 ## ⚠️ **DISCLAIMER** ⚠️
 The animes **NOT** belong to the creator or any contributor of this project,
@@ -74,32 +93,52 @@ This project **NOT** receives profits of any kind, the ads that appear are from 
 
 ## **Preview**
 
-![anime](https://user-images.githubusercontent.com/78381898/153487390-1bc7976d-514d-4457-98b6-dbfaa8e43c64.png)
+![anime](https://user-images.githubusercontent.com/78381898/153124219-4c50aec3-0087-4204-8f44-8c563af6d9b0.png)
 
-![anime](https://user-images.githubusercontent.com/78381898/153487393-2cf7478b-50da-4029-b5b6-91a3a3992c3c.png)
+![anime](https://user-images.githubusercontent.com/78381898/153124225-63cb6851-ce37-4639-a568-545ab8d5c1e9.png)
 
-https://user-images.githubusercontent.com/78381898/153487368-157807c2-c89c-49de-835d-40bdc1b5249d.mp4
+https://user-images.githubusercontent.com/78381898/153272957-a6c8b50b-dfd5-4e36-b772-bc2724d51312.mp4
 
 ### **Presence in discord**
 
 ![anime](https://user-images.githubusercontent.com/78381898/153275541-e0c8d18c-061e-43fc-8e7e-97842e3a0ec8.png)
 
+## **Installation**
+
+### **Using Go v1.17+**
+```bash
+# You can remove "@latest" and put some version like: "@v0.4.0"
+$ go install github.com/FlamesX-128/monas-chinas-cli@latest
+```
+
+### **Using Go v1.16**
+```bash
+# You can remove "@latest" and put some version like: "@v0.4.0"
+$ go get -u github.com/FlamesX-128/monas-chinas-cli@latest
+```
+
 ## **Usage**
+### **Installed with Go**
 
-1° Download the files in [releases](https://github.com/FlamesX-128/monas-chinas-cli/releases).
+1° Open a console/terminal.
 
-2° Unzip the folder.
+2° Execute the following command:
+```bash
+$ monas-chinas-cli
+```
 
-3° Open a console/terminal
+### **Downloaded file**
 
-4° Go to the path where the downloaded file is located.
+1° Open a console/terminal
 
-4.1° You can go to the directories with the "cd" command like:
+2° Go to the path where the downloaded file is located.
+
+2.1° You can go to the directories with the "cd" command like:
 ```bash
 $ cd Desktop
 ```
 
-5° Execute the following command:
+3° Execute the following command:
 ```bash
 # Linux, Darwin
 $ ./monas-chinas-cli

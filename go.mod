@@ -6,9 +6,11 @@ require (
 	github.com/AlecAivazis/survey/v2 v2.3.2
 	github.com/gocolly/colly v1.2.0
 	github.com/hugolgst/rich-go v0.0.0-20210925091458-d59fb695d9c0
+	github.com/webview/webview v0.0.0-20220209020913-f90053554510
 )
 
 require (
+	github.com/FlamesX-128/gopher-build-all v0.0.2 // indirect
 	github.com/PuerkitoBio/goquery v1.8.0 // indirect
 	github.com/andybalholm/cascadia v1.3.1 // indirect
 	github.com/antchfx/htmlquery v1.2.4 // indirect

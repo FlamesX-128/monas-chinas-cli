@@ -3,7 +3,7 @@ package tools
 import (
 	"log"
 
-	"github.com/FlamesX-128/monas-chinas-cli/src/interfaces"
+	"github.com/FlamesX-128/monas-chinas-cli/interfaces"
 	"github.com/gocolly/colly"
 )
 
