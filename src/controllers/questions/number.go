@@ -2,6 +2,7 @@ package questions
 
 import (
 	"errors"
+	"fmt"
 	"log"
 	"strconv"
 
@@ -9,15 +10,18 @@ import (
 )
 
 func Number(message string, err_msg string, max int) (input int) {
-	var ignore string = ""
+	var (
+		ignore string
+		err    error
+	)
 
 	prompt := []*survey.Question{
 		{
 			Prompt: &survey.Input{
-				Message: message,
+				Message: fmt.Sprintf(message, max),
 			},
 			Validate: func(ans interface{}) error {
-				input, err := strconv.Atoi(ans.(string))
+				input, err = strconv.Atoi(ans.(string))
 
 				if err == nil && (input > 0 && input <= max) {
 
@@ -29,10 +33,12 @@ func Number(message string, err_msg string, max int) (input int) {
 		},
 	}
 
-	if err := survey.Ask(prompt, &ignore); err != nil {
+	if err = survey.Ask(prompt, &ignore); err != nil {
 		log.Panicln(err.Error())
 
 	}
+
+	fmt.Println(input)
 
 	return
 }

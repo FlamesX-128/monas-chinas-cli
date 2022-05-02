@@ -21,7 +21,7 @@ func main() {
 	translation := solvers.Translations[language]
 	provider := tools.GetProvider(language)
 
-	anime_list := provider.SearchAnimes(questions.String(translation.ToWatch))
+	anime_list := provider.SearchAnimes(questions.String(translation.AnimeToSearch))
 	options = []string{}
 
 	for _, anime := range anime_list {
@@ -29,6 +29,12 @@ func main() {
 
 	}
 
-	anime := anime_list[tools.FindIndex(options, questions.Selection("", options))]
-	fmt.Println(anime)
+	anime := anime_list[tools.FindIndex(options, questions.Selection(translation.AnimeToWatch, options))]
+
+	episode_list := provider.SearchEpisodes(anime.Url)
+	episode := episode_list[questions.Number(translation.EpisodeToWatch, "", len(episode_list))-1]
+
+	service_list := provider.SearchServices(episode)
+
+	fmt.Println(service_list)
 }

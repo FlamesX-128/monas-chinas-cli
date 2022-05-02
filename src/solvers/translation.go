@@ -1,18 +1,20 @@
 package solvers
 
 type Translation struct {
-	NumberErr string
-
-	ToWatch string
+	AnimeToSearch  string
+	AnimeToWatch   string
+	EpisodeToWatch string
 }
 
 var Translations = map[string]Translation{
 	"english": {
-		NumberErr: "You must enter a number between 1 to %v",
-
-		ToWatch: "What anime do you want to see?",
+		AnimeToSearch:  "What anime do you want to see?",
+		AnimeToWatch:   "The following animes were found:",
+		EpisodeToWatch: "Enter a number between 1 to %v to select the episode:",
 	},
 	"español": {
-		ToWatch: "¿Qué anime quieres ver?",
+		AnimeToSearch:  "¿Qué anime quieres ver?",
+		AnimeToWatch:   "Se encontraron los siguientes animes:",
+		EpisodeToWatch: "introduzca un numero entre 1 a %v para seleccionar el episodio:",
 	},
 }
