@@ -2,7 +2,6 @@ package providers
 
 import (
 	"encoding/base64"
-	"fmt"
 	"log"
 	"strings"
 
@@ -63,8 +62,6 @@ var Monoschinos = &controllers.Provider{
 				url = urls[0]
 
 			}
-
-			fmt.Println(url)
 
 			services = append(services, controllers.Service{
 				Name: h.Text,

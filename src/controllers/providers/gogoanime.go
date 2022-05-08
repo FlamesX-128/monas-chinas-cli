@@ -1,7 +1,6 @@
 package providers
 
 import (
-	"fmt"
 	"log"
 	"strconv"
 	"strings"
@@ -62,8 +61,6 @@ var Gogoanime = &controllers.Provider{
 	},
 	SearchServices: func(url string) (services []controllers.Service) {
 		c := colly.NewCollector()
-
-		fmt.Println(url)
 
 		c.OnHTML("div.anime_muti_link ul li", func(h *colly.HTMLElement) {
 			name := h.Attr("class")

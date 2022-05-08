@@ -38,7 +38,5 @@ func Number(message string, err_msg string, max int) (input int) {
 
 	}
 
-	fmt.Println(input)
-
 	return
 }
