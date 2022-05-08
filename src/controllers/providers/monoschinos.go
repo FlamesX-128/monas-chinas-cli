@@ -1,7 +1,10 @@
 package providers
 
 import (
+	"encoding/base64"
+	"fmt"
 	"log"
+	"strings"
 
 	"github.com/FlamesX-128/monas-chinas-cli/src/controllers"
 	"github.com/gocolly/colly"
@@ -48,10 +51,25 @@ var Monoschinos = &controllers.Provider{
 		c := colly.NewCollector()
 
 		c.OnHTML("div.heromain div.playother p", func(h *colly.HTMLElement) {
-			name := h.Text
-			url := h.Attr("data-player")
+			var url string = ""
 
-			services = append(services, controllers.Service{Name: name, Url: url})
+			link, _ := base64.StdEncoding.DecodeString(h.Attr("data-player"))
+			urls := strings.Split(string(link), "?url=")
+
+			if len(urls) == 2 {
+				url = urls[1]
+
+			} else {
+				url = urls[0]
+
+			}
+
+			fmt.Println(url)
+
+			services = append(services, controllers.Service{
+				Name: h.Text,
+				Url:  url,
+			})
 		})
 
 		if err := c.Visit(url); err != nil {
