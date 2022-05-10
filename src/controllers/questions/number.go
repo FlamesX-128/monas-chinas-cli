@@ -9,31 +9,26 @@ import (
 	"github.com/AlecAivazis/survey/v2"
 )
 
-func Number(message string, err_msg string, max int) (input int) {
-	var (
-		ignore string
-		err    error
-	)
-
+func Number(m string, em string, max int) (input string) {
 	prompt := []*survey.Question{
 		{
 			Prompt: &survey.Input{
-				Message: fmt.Sprintf(message, max),
+				Message: fmt.Sprintf(m, max),
 			},
 			Validate: func(ans interface{}) error {
-				input, err = strconv.Atoi(ans.(string))
+				number, err := strconv.Atoi(ans.(string))
 
-				if err == nil && (input > 0 && input <= max) {
+				if err == nil && (number > 0 && number <= max) {
 
 					return nil
 				}
 
-				return errors.New(err_msg + strconv.Itoa(max))
+				return errors.New(em + strconv.Itoa(max))
 			},
 		},
 	}
 
-	if err = survey.Ask(prompt, &ignore); err != nil {
+	if err := survey.Ask(prompt, &input); err != nil {
 		log.Panicln(err.Error())
 
 	}

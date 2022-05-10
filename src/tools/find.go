@@ -1,10 +1,10 @@
 package tools
 
-func FindIndex(arr []string, target string) uint {
+func FindIndex(arr []string, target string) uint16 {
 	for i, e := range arr {
 		if e == target {
 
-			return uint(i)
+			return uint16(i)
 		}
 
 	}
