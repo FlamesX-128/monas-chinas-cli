@@ -22,7 +22,7 @@ A simple cli to search and watch anime in multiple languages.
 
 ```sh
 # Go 1.17+
-$ go install github.com/FlamesX-128/monas-chinas-cli@latest
+$ go install github.com/FlamesX-128/monas-chinas-cli@v1.0.0-1
 
 # Go 1.16
 $ go get -u github.com/FlamesX-128/monas-chinas-cli
