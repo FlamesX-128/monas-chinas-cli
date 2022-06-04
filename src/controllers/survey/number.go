@@ -1,7 +1,6 @@
-package questions
+package survey
 
 import (
-	"errors"
 	"fmt"
 	"log"
 	"strconv"
@@ -9,29 +8,35 @@ import (
 	"github.com/AlecAivazis/survey/v2"
 )
 
-func Number(m string, em string, max int) (input string) {
+func Number(m, em string, max int) (resp int) {
+	var (
+		ign string
+		err error
+	)
+
 	prompt := []*survey.Question{
 		{
 			Prompt: &survey.Input{
 				Message: fmt.Sprintf(m, max),
 			},
-			Validate: func(ans interface{}) error {
-				number, err := strconv.Atoi(ans.(string))
 
-				if err == nil && (number > 0 && number <= max) {
+			Validate: func(ans interface{}) error {
+				resp, err = strconv.Atoi(ans.(string))
+
+				if err == nil && (resp > 0 && resp <= max) {
 
 					return nil
 				}
 
-				return errors.New(em + strconv.Itoa(max))
+				return fmt.Errorf(m, max)
 			},
 		},
 	}
 
-	if err := survey.Ask(prompt, &input); err != nil {
+	if err := survey.Ask(prompt, &ign); err != nil {
 		log.Panicln(err.Error())
 
 	}
 
-	return
+	return resp - 1
 }
